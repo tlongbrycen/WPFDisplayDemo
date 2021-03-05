@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Controls;
+using WPFDisplayDemo.View;
 
 namespace WPFDisplayDemo.ViewModel
 {
@@ -27,6 +28,8 @@ namespace WPFDisplayDemo.ViewModel
             {
                 Debug.WriteLine("CheckBox is not checked");
             }
+            ThermalWindow thermalWindow = new ThermalWindow();
+            thermalWindow.Show();
         }
     }
 }
